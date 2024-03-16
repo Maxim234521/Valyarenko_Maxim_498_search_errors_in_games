@@ -13,4 +13,4 @@ with open('game.csv', encoding='utf-8') as f:
             j-=1
 
     for stroka in data[1:]:
-        print(f'{stroka[0]} - количесво багов: {})
+        print(f'{stroka[0]} - количесво багов: {}')

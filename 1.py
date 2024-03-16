@@ -17,4 +17,5 @@ with open('game.csv', encoding='utf-8') as f, open('game_new.csv', 'w', encoding
     for stroka in data[1:]:
         if error in stroka[2]:
             stroka[2] = stroka[2][:5]+'Done'
+            stroka[-2]='0000-00-00'
         res.writerow(stroka)
